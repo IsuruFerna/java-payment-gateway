@@ -87,7 +87,6 @@
 			<version>0.12.6</version>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl -->
 		<!-- contains the actual implementation of those interfaces, including the logic for validating tokens and checking their expiration -->
 		<dependency>
@@ -106,7 +105,6 @@
 			<version>0.12.6</version>
 			<scope>runtime</scope>
 		</dependency>
-
 
 	</dependencies>
 

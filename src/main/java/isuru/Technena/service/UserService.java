@@ -33,7 +33,7 @@ public class UserService {
         userRepo.delete(user);
     }
 
-//    patch for update user details
+    // update user details
     public UserResponse updateUser(User currentUser, UserUpadateDTO payload) {
         User user = this.findById(currentUser.getId());
 
