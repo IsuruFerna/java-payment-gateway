@@ -97,6 +97,17 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-jackson -->
+		<!-- provides JSON serialization and deserialization using the Jackson library.
+		This means it allows JJWT to convert Java objects to JSON and vice versa using Jackson’s powerful and flexible JSON processing capabilities -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.12.6</version>
+			<scope>runtime</scope>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

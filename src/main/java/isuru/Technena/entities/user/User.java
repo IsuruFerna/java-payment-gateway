@@ -21,6 +21,7 @@ import java.util.UUID;
 @JsonIgnoreProperties({"password", "accountNonLocked", "credentialsNonExpired", "comments"})
 public class User implements UserDetails {
     @Id // Specifies the primary key of an entity
+    @GeneratedValue
     private UUID id;
     @Column(unique = true) // Specifies the column is unique
     private String email;
